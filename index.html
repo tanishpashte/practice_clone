@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Amazon</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="images/amazon_logo.png" alt="amazon_logo">
+            <div class="delivery">
+                <div id="location-logo">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div id="delivery-location">
+                    Deliver to <br><span>India</span>
+                </div>
+            </div>
+            <div class="search">
+                <label for="categories"></label>
+                <select name="categories" id="categories">
+                    <option value="All">All</option>
+                    <option value="Art">Art and Craft</option>
+                    <option value="Newborn">Baby categories</option>
+                    <option value="Clothing">Clothing</option>
+                    <option value="Kitchen">Kitchen</option>
+                    <option value="Tech">Accessories</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" id="search-text">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="language">
+                <label for="language"></label>
+                <select name="languages" id="languages">
+                    <option value="English">EN</option>
+                    <option value="Japanese">JP</option>
+                    <option value="Chinese">CN</option>
+                    <option value="French">FR</option>
+                </select>
+            </div>
+            <div class="account">
+                <div class="greet">
+                    Hello, Tanish
+                </div>
+                <label for="accounts">Account & Lists</label>
+                <select name="accounts" id="accounts">
+                </select>
+            </div>
+            <div class="order">
+                Returns <br>
+                <span>& Orders</span>
+            </div>
+            <div class="cart">
+                <div id="cart-logo">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div id="cart-count">0</div>
+                <span>Cart</span>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: #0f1111;
+    /* background-color: aqua; */
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img{
+    height: 60px;
+    width: 113px;
+}
+
+.delivery{
+    display: flex;
+    color: #cccccc;
+    font-size: 12px;
+}
+
+#delivery-location>span{
+    color: white;
+    font-size: 16px;
+}
+#location-logo{
+    color: white;
+    align-self: center;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.search{
+    display: flex;
+    height: 40px;
+}
+.search > button{
+    height: 40px;
+    width: 40px;
+    background-color: #FF9900;
+    border: 0;
+    border-radius: 0 5px 5px 0 ;
+}
+#search-text{
+    height: 40px;
+    width: 500px;
+    border: 0;
+    padding-left: 10px;
+}
+
+#categories{
+    background-color: #c9c9c9;
+    height: 40px;
+    width: 50px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+#languages{
+    height: 40px;
+    background-color: #0f1111;
+    color: white;
+    border: 0;
+}
+
+.greet{
+    font-size: 13px;
+}
+#accounts{
+    background-color: #0f1111;
+    color: #c9c9c9;
+    border: 0;
+    font-weight: bold
+}
+
+.account > label{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.order >span{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.order{
+    font-size: 13px;
+}
+
+.fa-cart-shopping{
+    font-size: 25px;
+}
+
+.cart{
+    display: flex;
+}
+
+#cart-count{
+    color: #FF9900;
+    margin: 5px;
+}
+
+.cart >span{
+    align-self: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
